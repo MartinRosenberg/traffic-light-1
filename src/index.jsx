@@ -3,6 +3,6 @@ import './index.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import { Housing } from './components/Housing'
+import { App } from './containers/App'
 
-ReactDOM.render(<Housing />, document.getElementById('root'))
+ReactDOM.render(<App />, document.getElementById('root'))

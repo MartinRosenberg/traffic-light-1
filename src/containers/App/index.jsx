@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 
-import { fetchLight, lights } from '../utils'
-import { Light } from './Light'
+import { Light } from '../../components/Light'
+import { Housing } from '../../components/Housing'
+import { lights } from './constants'
+import { fetchLight } from './utils'
 
-export class Housing extends Component {
+export class App extends Component {
   state = {
     currentLight: null
   }
@@ -17,15 +19,16 @@ export class Housing extends Component {
 
   render () {
     return (
-      <div className={'housing'} onClick={this.handleLightChange}>
-        {lights.map(light =>
+      <Housing
+        lights={lights.map(light =>
           <Light
             color={light}
             key={light}
             powered={light === this.state.currentLight}
           />
         )}
-      </div>
+        onClick={this.handleLightChange}
+      />
     )
   }
 }

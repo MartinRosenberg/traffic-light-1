@@ -1,4 +1,4 @@
-export const lights = ['red', 'yellow', 'green']
+import { lights } from './constants'
 
 export const fetchLight = () => {
   return new Promise((resolve, reject) => {
