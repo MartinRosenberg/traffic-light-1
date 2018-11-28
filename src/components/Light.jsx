@@ -1,10 +1,10 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 
-export const Light = ({ light, on }) =>
-  <div className={`light${on ? ' on' : ''}`} id={light} />
+export const Light = ({ color, powered }) =>
+  <div className={`${powered ? `${color} ` : ''}light`} />
 
 Light.propTypes = {
-  light: PropTypes.string.isRequired,
-  on: PropTypes.bool.isRequired,
+  color: PropTypes.string.isRequired,
+  powered: PropTypes.bool.isRequired,
 }

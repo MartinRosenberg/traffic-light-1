@@ -11,18 +11,18 @@ export class Housing extends Component {
   handleLightChange = () =>
     fetchLight().then(result => {
       this.setState({ currentLight: result })
-    }, error => {
+    }).catch(error => {
       console.error(error)
     })
 
   render () {
     return (
-      <div id="box" onClick={this.handleLightChange}>
+      <div className={'housing'} onClick={this.handleLightChange}>
         {lights.map(light =>
           <Light
+            color={light}
             key={light}
-            light={light}
-            on={light === this.state.currentLight}
+            powered={light === this.state.currentLight}
           />
         )}
       </div>

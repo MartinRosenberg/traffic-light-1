@@ -9,7 +9,7 @@
   justify-content: center;
 }
 
-#box {
+.housing {
   background: black;
   border-radius: 1rem;
   cursor: pointer;
@@ -28,14 +28,14 @@
   width: 8rem;
 }
 
-#red.on {
+.red {
   background: red;
 }
 
-#yellow.on {
+.yellow {
   background: gold;
 }
 
-#green.on {
+.green {
   background: green;
 }
