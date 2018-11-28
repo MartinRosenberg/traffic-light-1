@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Housing component should render light correctly when off 1`] = `
+<div
+  className="light"
+/>
+`;
+
+exports[`Housing component should render light correctly when on 1`] = `
+<div
+  className="red light"
+/>
+`;

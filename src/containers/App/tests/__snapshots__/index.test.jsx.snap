@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App container should render correctly 1`] = `
+<Housing
+  lights={
+    Array [
+      <Light
+        color="red"
+        powered={false}
+      />,
+      <Light
+        color="yellow"
+        powered={false}
+      />,
+      <Light
+        color="green"
+        powered={false}
+      />,
+    ]
+  }
+  onClick={[Function]}
+/>
+`;

@@ -1,1 +1,1 @@
-export const lights = ['red', 'yellow', 'green']
+export const lights = Object.freeze(['red', 'yellow', 'green'])
