@@ -5,8 +5,8 @@ Traffic light in [React](https://github.com/facebook/react/) that changes random
 ## Try it locally
 
 ```bash
-$ git clone https://github.com/MartinRosenberg/Traffic-Light.git
-$ cd Traffic-Light
+$ git clone https://github.com/MartinRosenberg/traffic-light.git
+$ cd traffic-light
 $ yarn
 $ yarn start
 ```
