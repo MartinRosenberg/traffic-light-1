@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Housing component should render correctly 1`] = `
+<div
+  className="housing"
+  onClick={[MockFunction]}
+>
+  <Light
+    color="red"
+    key="red"
+    powered={true}
+  />
+  <Light
+    color="yellow"
+    key="yellow"
+    powered={true}
+  />
+  <Light
+    color="green"
+    key="green"
+    powered={true}
+  />
+</div>
+`;

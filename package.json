@@ -29,11 +29,17 @@
 		"prop-types": "^15.7.2",
 		"react": "^17.0.2",
 		"react-dom": "^17.0.2",
-		"react-scripts": "^4.0.3"
+		"react-scripts": "^4.0.3",
+		"typescript": "^4.2.4"
 	},
 	"devDependencies": {
+		"@types/enzyme": "^3.10.8",
+		"@types/jest": "^26.0.23",
+		"@types/prop-types": "^15.7.3",
+		"@types/react": "^17.0.4",
+		"@types/react-dom": "^17.0.3",
+		"@wojtekmaj/enzyme-adapter-react-17": "^0.6.1",
 		"enzyme": "^3.11.0",
-		"enzyme-adapter-react-16": "^1.15.6",
 		"enzyme-to-json": "^3.6.2"
 	}
 }
